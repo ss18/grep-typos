@@ -1,1 +1,1 @@
-# grep-typos
+# TODO: load typos from file
