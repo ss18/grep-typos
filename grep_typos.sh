@@ -1,7 +1,10 @@
 #!/bin/bash
 # ------------------------------------------------------------------
 # [Author] Semen Zhydenko
-#          TODO: write me
+#          TODO: 
+# 				- optimize search
+# 				- add more typos
+#
 # ------------------------------------------------------------------
 
 if [ $# -eq 0 ]
@@ -27,4 +30,7 @@ do
 done
 
 echo "Search typos in $path..."
-grep --color -r "$pattern" $path
+if ! grep --color -r "$pattern" $path
+then
+	echo "No typos found."
+fi
