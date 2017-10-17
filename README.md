@@ -1,1 +1,10 @@
-# TODO: load typos from file
+##Usage:
+
+`git clone git@github.com:ss18/grep-typos.git`
+
+`cd grep-typos`
+
+`./grep_typos.sh /Users/semenzhydenko/Projects/Private/PetProject`
+
+
+![](example.png?raw=true "Title")
