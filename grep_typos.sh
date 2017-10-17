@@ -13,46 +13,11 @@ fi
 
 readonly path=$1
 
-declare -a wrong_words=(
-	"absense"
-	"abscence"
-	"accross"
-	"acheive"
-	"apparantly"
-	"appearence"
-	"arguement"
-	"basicly"
-	"becuase"
-	"begining"
-	"beleive"
-	"belive"
-	"buisness"
-	"calender"
-	"catagory"
-	"completly"
-	"dissapear"
-	"definately"
-	"cunt"
-	"foriegn"
-	"finaly"
-	"freind"
-	"gaurd"
-	"knowlege"
-	"neccessary"
-	"noticable"
-	"succesful"
-	"unfortunatly"
-	"peice"
-	"realy"
-	"foward"
-	"freind"
-	"immediatly"
-	"persistant"
-	"peice"
-	"recieve"
-	"truely"
-	)
-
+wrong_words=()
+while IFS= read -r line
+do
+	wrong_words+=("$line")
+done < "typos.txt"
 
 pattern=${wrong_words[0]}
 
