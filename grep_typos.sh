@@ -22,6 +22,8 @@ do
 	wrong_words+=("$line")
 done < "typos.txt"
 
+wrong_words=($(for l in ${wrong_words[@]}; do echo $l; done | sort))
+
 pattern=${wrong_words[0]}
 
 for i in "${wrong_words[@]:1}"
@@ -29,7 +31,7 @@ do
 	pattern=$pattern"\|"$i
 done
 
-echo "Search typos in $path..."
+echo "Search typos in $path"
 if ! grep --color -r "$pattern" $path
 then
 	echo "No typos found."
