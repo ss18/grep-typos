@@ -1,9 +1,10 @@
 #!/bin/bash
 # ------------------------------------------------------------------
 # [Author] Semen Zhydenko
-#          TODO: 
+#          TODO:
 # 				- optimize search
 # 				- add more typos
+#         - use https://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings
 #
 # ------------------------------------------------------------------
 
@@ -16,12 +17,14 @@ fi
 
 readonly path=$1
 
+# read from file
 wrong_words=()
 while IFS= read -r line
 do
 	wrong_words+=("$line")
 done < "typos.txt"
 
+# sort alphabetically
 wrong_words=($(for l in ${wrong_words[@]}; do echo $l; done | sort))
 
 pattern=${wrong_words[0]}
@@ -31,6 +34,7 @@ do
 	pattern=$pattern"\|"$i
 done
 
+# pattern is ready -> do actual grep
 echo "Search typos in $path"
 if ! grep --color -r "$pattern" $path
 then
