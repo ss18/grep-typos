@@ -9,8 +9,11 @@ count_from_grep=$(wc -l < $tmp_file)
 count_from_file=$(wc -l < ./data/typos.txt)
 rm -rf $tmp_file
 
+# Extra typos in test data: 1984.txt, diary.txt
+extra=2
+
 # always one more string "Search typos in $path"
-count_from_file=$((count_from_file+1))
+count_from_file=$((count_from_file+1+$extra))
 
 if [ "$count_from_grep" -eq "$count_from_file" ];then
   echo "Tests passed.";
