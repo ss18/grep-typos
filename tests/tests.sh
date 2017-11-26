@@ -6,7 +6,7 @@
 tmp_file=$(mktemp)
 ./grep_typos.sh . >> $tmp_file
 count_from_grep=$(wc -l < $tmp_file)
-count_from_file=$(wc -l < ./typos.txt)
+count_from_file=$(wc -l < ./data/typos.txt)
 rm -rf $tmp_file
 
 # always one more string "Search typos in $path"
