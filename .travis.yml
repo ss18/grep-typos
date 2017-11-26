@@ -1,3 +1,3 @@
 language: bash
 script:
-- ./tests.sh .
+- ./tests/tests.sh .

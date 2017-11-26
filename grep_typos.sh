@@ -22,7 +22,7 @@ wrong_words=()
 while IFS= read -r line
 do
 	wrong_words+=("$line")
-done < "typos.txt"
+done < "data/typos.txt"
 
 # sort alphabetically
 wrong_words=($(for l in ${wrong_words[@]}; do echo $l; done | sort))

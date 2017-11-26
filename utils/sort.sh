@@ -4,6 +4,6 @@
 # ------------------------------------------------------------------
 
 tmp_file=$(mktemp)
-sort ../typos.txt >> $tmp_file
-mv $tmp_file ../typos.txt
+sort ../data/typos.txt >> $tmp_file
+mv $tmp_file ../data/typos.txt
 rm -rf $tmp_file
