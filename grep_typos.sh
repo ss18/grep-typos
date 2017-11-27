@@ -24,19 +24,24 @@ do
 	wrong_words+=("$line")
 done < "data/typos.txt"
 
-# sort alphabetically
-wrong_words=($(for l in ${wrong_words[@]}; do echo $l; done | sort))
+echo "Search typos in $path"
 
-pattern=${wrong_words[0]}
+pattern_size=500
+counter=0
+pattern=""
 
-for i in "${wrong_words[@]:1}"
+for i in "${wrong_words[@]}"
 do
-	pattern=$pattern"\|"$i
+  if [ "$counter" -eq "0" ];then 
+    pattern=$i
+  elif [ "$counter" -eq "$pattern_size" ];then
+    grep --color -r -I "$pattern" $path
+    pattern=$i
+    counter=0
+  else
+    pattern=$pattern"\|"$i
+  fi
+  counter=$((counter+1))
 done
 
-# pattern is ready -> do actual grep
-echo "Search typos in $path"
-if ! grep --color -r "$pattern" $path
-then
-	echo "No typos found."
-fi
+grep --color -r -I "$pattern" $path

@@ -13,12 +13,12 @@ rm -rf $tmp_file
 extra=2
 
 # always one more string "Search typos in $path"
-count_from_file=$((count_from_file+1+$extra))
+tests_total=$((count_from_file+1+$extra))
 
-if [ "$count_from_grep" -eq "$count_from_file" ];then
+if [ "$count_from_grep" -eq "$tests_total" ];then
   echo "Tests passed.";
   exit 0;
 else
-  echo "Tests faild.";
+  echo "Tests faild. count_from_grep=$count_from_grep,count_from_file=$count_from_file";
   exit 1;  
 fi
