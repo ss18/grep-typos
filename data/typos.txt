@@ -103,7 +103,6 @@ acustom
 acustommed
 adavanced
 adbandon
-adders
 addional
 addionally
 additinally
@@ -161,8 +160,6 @@ afficionado
 afficionados
 affilate
 affilliate
-afford
-affords
 affort
 aforememtioned
 againnst
@@ -256,7 +253,6 @@ alusion
 alwasy
 alwyas
 amalgomated
-amateur
 amatuer
 amature
 amendmant
@@ -313,7 +309,6 @@ anwsered
 anyhwere
 anyother
 anytying
-anyways
 aparent
 aparently
 aparment
@@ -390,7 +385,6 @@ architechturally
 architechture
 architechtures
 architectual
-archived
 archtype
 archtypes
 aready
@@ -576,7 +570,6 @@ belived
 belives
 belligerant
 bellweather
-beloved
 bemusemnt
 beneficary
 beng
@@ -631,7 +624,6 @@ buisnessman
 buoancy
 buring
 burried
-busines
 busineses
 businesses
 busness
@@ -642,7 +634,6 @@ caluclate
 casue
 catagory
 completly
-cout
 cunt
 definately
 definatly
