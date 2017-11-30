@@ -4,7 +4,6 @@ quantitiy
 quarantaine
 questonable
 quicklyu
-quiet
 quinessential
 quitted
 quizes
@@ -20,7 +19,6 @@ reacing
 reacll
 readmition
 realitvely
-realized
 realsitic
 realtions
 realy
@@ -91,7 +89,6 @@ refedendum
 referal
 referece
 refereces
-refered
 referemce
 referemces
 referencs
@@ -167,7 +164,6 @@ rennovation
 rentors
 reoccurrence
 reorganision
-repartition
 repatition
 repblic
 repblican
@@ -264,7 +260,6 @@ reversable
 revolutionar
 rewitten
 rewriet
-rference
 rferences
 rhymme
 rhythem
@@ -274,7 +269,6 @@ rigeur
 rigor
 rigourous
 rininging
-rised
 rococco
 rocord
 roomate
@@ -282,7 +276,6 @@ rougly
 rucuperate
 rudimentatry
 rulle
-runing
 runnung
 russina
 rwite
@@ -456,7 +449,6 @@ sotry
 sotyr
 soudn
 soudns
-soul
 sould
 sountrack
 sourth
@@ -471,7 +463,6 @@ soverignty
 spainish
 speach
 specfic
-specialized
 speciallized
 specifiying
 speciman
@@ -519,7 +510,6 @@ storeis
 storise
 stornegst
 stoyr
-stpo
 stradegies
 stradegy
 strata
@@ -573,13 +563,11 @@ succcesses
 succedded
 succeded
 succeds
-succeeded
 succesful
 succesfully
 succesfuly
 succesion
 succesive
-successfull
 successully
 succsess
 succsessfull
@@ -640,7 +628,6 @@ suprize
 suprized
 suprizing
 suprizingly
-surely
 surfce
 surley
 suround
