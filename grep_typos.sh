@@ -26,7 +26,7 @@ done < "data/typos.txt"
 
 echo "Search typos in $path"
 
-pattern_size=500
+pattern_size=512
 counter=0
 pattern=""
 
