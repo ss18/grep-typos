@@ -4,7 +4,6 @@ taht
 talekd
 targetted
 targetting
-tast
 tath
 tatoo
 tattooes
@@ -17,8 +16,6 @@ techiniques
 technitian
 technnology
 technolgy
-teh
-tehy
 telelevision
 televsion
 telphony
@@ -56,7 +53,6 @@ themselfs
 themslves
 therafter
 therby
-theri
 theyre
 thgat
 thge
@@ -69,7 +65,6 @@ thikn
 thikning
 thikns
 thiunk
-thna
 thne
 thoughout
 threatend
@@ -81,8 +76,6 @@ throrough
 throughly
 throught
 througout
-thru
-thsi
 thsoe
 thta
 thyat
@@ -102,10 +95,8 @@ tobbaco
 todays
 todya
 toghether
-toke
 tolerence
 tomatos
-tome
 tommorow
 tommorrow
 tongiht
@@ -157,7 +148,6 @@ troops
 troup
 troups
 truely
-trunk
 trustworthyness
 turnk
 tust
@@ -247,7 +237,6 @@ unsed
 unsubstanciated
 unsuccesful
 unsuccesfully
-unsuccessfull
 unsucesful
 unsucesfuly
 unsucessful
@@ -272,7 +261,6 @@ unweildly
 unwieldly
 upcomming
 upgradded
-upto
 usally
 useage
 usefull
@@ -302,7 +290,6 @@ vegitable
 vegitables
 vegtable
 vehicule
-vell
 venemous
 vengance
 vengeance
@@ -349,7 +336,6 @@ vreity
 vrey
 vriety
 vulnerablility
-vyer
 vyre
 waht
 warantee
@@ -382,18 +368,14 @@ wholey
 wholy
 whta
 whther
-wich
 widesread
 wief
 wierd
 wiew
-wih
 wiht
-wild
 willingless
 willk
 wirting
-withdraw
 withdrawl
 witheld
 withh
@@ -437,6 +419,4 @@ yersa
 yotube
 youseff
 youself
-yrea
-ytou
 yuo
