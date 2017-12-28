@@ -1037,8 +1037,6 @@ creedence
 critereon
 criterias
 criticists
-criticize
-criticized
 criticizes
 criticizing
 critising
@@ -1941,7 +1939,6 @@ inctroduced
 incuding
 incunabla
 indefineable
-indented
 indentical
 indepedantly
 indepedence
@@ -3073,7 +3070,6 @@ reffered
 refference
 reffering
 refrence
-refrences
 refrers
 refridgeration
 refridgerator
@@ -3583,14 +3579,9 @@ suprisingly
 suprize
 suprized
 suprizing
-suprizingly
 surfce
 surley
 suround
-surounded
-surounding
-suroundings
-surounds
 surplanted
 surpress
 surpressed
@@ -3852,8 +3843,6 @@ unrepetent
 unsaid
 unsed
 unsubstanciated
-unsuprizing
-unsuprizingly
 unsurprized
 unsurprizing
 unsurprizingly
@@ -3868,7 +3857,6 @@ unwieldly
 upgradded
 usally
 useage
-usefull
 usefuly
 usualy
 ususally
