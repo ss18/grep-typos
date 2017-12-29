@@ -1873,7 +1873,6 @@ illution
 ilness
 ilogical
 imagenary
-imagery
 imaginery
 imanent
 imcomplete
@@ -2047,7 +2046,6 @@ interupt
 intervines
 intevene
 intial
-intially
 intrduced
 intrest
 introdued
@@ -2557,7 +2555,6 @@ owrk
 owudl
 oxigen
 oximoron
-p0enis
 paide
 paitience
 palace
@@ -3585,7 +3582,6 @@ surpress
 surprize
 surprized
 surprizing
-surprizingly
 surrended
 surrendered
 surrepetitious
@@ -3840,9 +3836,6 @@ unrepetent
 unsaid
 unsed
 unsubstanciated
-unsurprized
-unsurprizing
-unsurprizingly
 untill
 untranslateable
 unuseable
