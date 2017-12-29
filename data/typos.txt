@@ -3506,11 +3506,9 @@ substace
 substancial
 substatial
 substituded
-substract
 substracted
 substracting
 substraction
-substracts
 subtances
 subterranian
 suburburban
@@ -3584,7 +3582,6 @@ surley
 suround
 surplanted
 surpress
-surpressed
 surprize
 surprized
 surprizing
