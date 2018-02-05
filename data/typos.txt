@@ -466,7 +466,6 @@ attemts
 attendence
 attendent
 attendents
-attened
 attension
 attitide
 attributred
@@ -3583,7 +3582,6 @@ surprized
 surprizing
 surrended
 surrepetitious
-surrepetitiously
 surreptious
 surreptiously
 surronded
