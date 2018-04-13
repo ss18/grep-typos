@@ -19,3 +19,17 @@ else
   echo "Tests faild. count_from_grep=$count_from_grep,count_from_file=$count_from_file";
   exit 1;  
 fi
+
+# Part 2, testing exclude
+tmp_file=$(mktemp)
+./grep_typos.sh . --exclude='*.txt' >> $tmp_file
+count_from_grep=$(wc -l < $tmp_file)
+rm -rf $tmp_file
+
+if [ "$count_from_grep" -eq 0 ];then
+  echo "Tests passed.";
+  exit 0;
+else
+  echo "Tests faild. count_from_grep=$count_from_grep, but should be 0";
+  exit 1;  
+fi
