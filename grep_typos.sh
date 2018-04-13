@@ -11,11 +11,25 @@
 if [ $# -eq 0 ]
   then
     echo "No arguments supplied, please provide path."
-    echo "Usage: $0 path"
+    echo "Usage:"
+    echo "$0 path"
+    echo "$0 path --exclude='*.po'"
     exit 1
 fi
 
 readonly path=$1
+
+# No exclude by default
+exclude_mask=''
+
+if [ $# -eq 2 ]
+  then
+  if [[ $2 == --exclude* ]]
+    then
+    exclude_mask=`cut -d "=" -f 2 <<< "$2"`
+  fi
+fi
+
 
 # read from file
 wrong_words=()
@@ -35,7 +49,7 @@ do
   if [ "$counter" -eq "0" ];then 
     pattern=$i
   elif [ "$counter" -eq "$pattern_size" ];then
-    grep --color -r -I "$pattern" $path
+    grep --color -r --exclude=$exclude_mask -I "$pattern" $path
     pattern=$i
     counter=0
   else
@@ -44,4 +58,4 @@ do
   counter=$((counter+1))
 done
 
-grep --color -r -I "$pattern" $path
+grep --color -r --exclude=$exclude_mask -I "$pattern" $path
