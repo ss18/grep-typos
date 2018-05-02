@@ -1,15 +1,27 @@
 Quickly check your project for most common typos and misspellings.
 
-## Usage:
+## Usage
+
+### Options
+
+#### `--substrings`
+Match substrings in searched text. This option will cause the script to use the data/typos.txt database. Default script behavior without the `--substrings` option is to match data/common_misspellings.txt against whole words only.
+
+#### `--exclude=[EXCLUSIONS]`
+Exclude specified files from processing.
+
+### Example
 
 `git clone git@github.com:ss18/grep-typos.git`
 
 `cd grep-typos`
 
-`./grep_typos.sh /Users/semenzhydenko/Projects/Private/PetProject`
+`./grep_typos.sh --substrings /Users/semenzhydenko/Projects/Private/PetProject`
 
 
 ![](example.png?raw=true "Title")
+
+
 
 
 ## Contributing
