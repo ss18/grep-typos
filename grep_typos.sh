@@ -75,7 +75,7 @@ do
       pattern="\b${i}\b"
     fi
   elif [ "$counter" -eq "$pattern_size" ];then
-    if grep --color -r --exclude=$exclude_mask -I "$pattern" $path; then
+    if grep --color --line-number -r --exclude=$exclude_mask -I "$pattern" $path; then
       exit_status=1
     fi
     pattern=$i
@@ -90,7 +90,7 @@ do
   counter=$((counter+1))
 done
 
-if grep --color -r --exclude=$exclude_mask -I "$pattern" $path; then
+if grep --color --line-number -r --exclude=$exclude_mask -I "$pattern" $path; then
   exit_status=1
 fi
 
