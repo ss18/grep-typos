@@ -46,10 +46,20 @@ do
 done
 
 
+# Determine the script location
+# https://stackoverflow.com/a/246128
+source="${BASH_SOURCE[0]}"
+while [ -h "$source" ]; do # resolve $source until the file is no longer a symlink
+  directory="$( cd -P "$( dirname "$source" )" && pwd )"
+  source="$(readlink "$source")"
+  [[ $source != /* ]] && source="$directory/$source" # if $source was a relative symlink, we need to resolve it relative to the path where the symlink file was located
+done
+script_directory="$( cd -P "$( dirname "$source" )" && pwd )"
+
 if [ "$match_substrings" == true ];then
-  data_file="data/typos.txt"
+  data_file="${script_directory}/data/typos.txt"
 else
-  data_file="data/common_misspellings.txt"
+  data_file="${script_directory}/data/common_misspellings.txt"
 fi
 
 
