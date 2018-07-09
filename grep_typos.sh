@@ -30,7 +30,7 @@ exit_status=0
 
 for argument in "$@"
 do
-  case $argument in
+  case "$argument" in
     --exclude=*)
     exclude_mask=`cut -d "=" -f 2 <<< "$argument"`
     shift
@@ -40,7 +40,7 @@ do
     shift
     ;;
     *)
-    path=$argument
+    path="$argument"
     ;;
   esac
 done
@@ -85,7 +85,7 @@ do
       pattern="\b${i}\b"
     fi
   elif [ "$counter" -eq "$pattern_size" ];then
-    if grep --color --line-number -r --exclude=$exclude_mask -I "$pattern" $path; then
+    if grep --color --line-number -r --exclude="$exclude_mask" -I "$pattern" "$path"; then
       exit_status=1
     fi
     pattern=$i
@@ -100,7 +100,7 @@ do
   counter=$((counter+1))
 done
 
-if grep --color --line-number -r --exclude=$exclude_mask -I "$pattern" $path; then
+if grep --color --line-number -r --exclude="$exclude_mask" -I "$pattern" "$path"; then
   exit_status=1
 fi
 
